@@ -76,7 +76,11 @@ export default function App() {
 
             <div className="hero-buttons">
 
-              <a className="btn primary" href="/resume.pdf" download>
+              <a
+                href="/profile/resume.pdf"
+                download
+                className="btn primary"
+                >
                 Download Resume
               </a>
 
