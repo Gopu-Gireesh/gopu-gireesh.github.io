@@ -76,10 +76,14 @@ export default function App() {
 
             <div className="hero-buttons">
 
-              <a className="btn primary" href="/resume.pdf" download>
-                Download Resume
+              <a
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
+                target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn primary"
+                >
+                  Resume
               </a>
-
               <a href="#contact" className="btn secondary">
                 Contact Me
               </a>
