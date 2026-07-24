@@ -138,59 +138,83 @@ export default function App() {
 
       </section>
 
-      {/* ================= SKILLS ================= */}
+{/* ================= SKILLS ================= */}
+
+<section id="skills">
+
+  <div className="container">
+
+    <h2 className="title">
+      Technical <span className="gradient">Skills</span>
+    </h2>
+
+    <div className="skills-grid">
 
       <div className="glass skill-card">
-  <h3>💻 Programming</h3>
+        <div className="skill-card-header">
+          <span className="skill-icon">💻</span>
+          <h3>Programming</h3>
+        </div>
+        <div className="skill-tags">
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>Java</span>
+          <span>C / C++</span>
+          <span>SQL</span>
+          <span>Bash</span>
+        </div>
+      </div>
 
-  <ul className="skill-list">
-    <li>Python</li>
-    <li>JavaScript</li>
-    <li>Java</li>
-    <li>C / C++</li>
-    <li>SQL</li>
-    <li>Bash</li>
-  </ul>
-</div>
+      <div className="glass skill-card">
+        <div className="skill-card-header">
+          <span className="skill-icon">⚛️</span>
+          <h3>Frameworks</h3>
+        </div>
+        <div className="skill-tags">
+          <span>React.js</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>Django</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+        </div>
+      </div>
 
-<div className="glass skill-card">
-  <h3>⚛️ Frameworks</h3>
+      <div className="glass skill-card">
+        <div className="skill-card-header">
+          <span className="skill-icon">🗄️</span>
+          <h3>Databases & Tools</h3>
+        </div>
+        <div className="skill-tags">
+          <span>PostgreSQL</span>
+          <span>MongoDB</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Linux</span>
+          <span>Postman</span>
+        </div>
+      </div>
 
-  <ul className="skill-list">
-    <li>React.js</li>
-    <li>Node.js</li>
-    <li>Express.js</li>
-    <li>Django</li>
-    <li>HTML5</li>
-    <li>CSS3</li>
-  </ul>
-</div>
+      <div className="glass skill-card">
+        <div className="skill-card-header">
+          <span className="skill-icon">🛡️</span>
+          <h3>Cybersecurity</h3>
+        </div>
+        <div className="skill-tags">
+          <span>Penetration Testing</span>
+          <span>OWASP</span>
+          <span>Digital Forensics</span>
+          <span>Web Security</span>
+          <span>Threat Detection</span>
+          <span>Vulnerability Assessment</span>
+        </div>
+      </div>
 
-<div className="glass skill-card">
-  <h3>🗄️ Databases & Tools</h3>
+    </div>
 
-  <ul className="skill-list">
-    <li>PostgreSQL</li>
-    <li>MongoDB</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Linux</li>
-    <li>Postman</li>
-  </ul>
-</div>
+  </div>
 
-<div className="glass skill-card">
-  <h3>🛡 Cybersecurity</h3>
-
-  <ul className="skill-list">
-    <li>Penetration Testing</li>
-    <li>OWASP</li>
-    <li>Digital Forensics</li>
-    <li>Web Security</li>
-    <li>Threat Detection</li>
-    <li>Vulnerability Assessment</li>
-  </ul>
-</div>
+</section>
 
       {/* ================= EXPERIENCE ================= */}
 
