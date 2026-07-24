@@ -69,7 +69,7 @@ export default function App() {
               Experienced in React.js,
               Node.js,
               Express.js,
-              Flutter,
+              Django,
               PostgreSQL and Digital Forensics.
 
             </p>
@@ -169,7 +169,7 @@ export default function App() {
               <SkillBar title="React.js" value={90} />
               <SkillBar title="Node.js" value={88} />
               <SkillBar title="Express.js" value={86} />
-              <SkillBar title="Flutter" value={83} />
+              <SkillBar title="Django" value={83} />
 
             </div>
 
@@ -240,28 +240,20 @@ export default function App() {
 
               <div className="timeline-content">
 
-                <h3>Flutter App Development Intern</h3>
+                <h3>Full Stack Django Developer</h3>
 
-                <h4>Nest Company</h4>
+                <h4>Personal Project</h4>
 
                 <p>
-
-                  • Built reusable Flutter UI components.
-
+                  • Developed a full-stack Employment Management System using Django.
                 </p>
 
                 <p>
-
-                  • Converted Figma designs into responsive
-                  mobile interfaces.
-
+                  • Implemented role-based authentication, CRUD operations, and Django ORM.
                 </p>
 
                 <p>
-
-                  • Improved application usability through
-                  collaborative development.
-
+                  • Built responsive interfaces using HTML, CSS, JavaScript, and SQLite.
                 </p>
 
               </div>
