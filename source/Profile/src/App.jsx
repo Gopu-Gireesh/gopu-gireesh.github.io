@@ -439,39 +439,58 @@ export default function App() {
 
       {/* ================= CERTIFICATION ================= */}
 
-      <section>
+<section>
 
-        <div className="container">
+  <div className="container">
 
-          <h2 className="title">
+    <h2 className="title">
 
-            <span className="gradient">
+      <span className="gradient">
+        Certifications
+      </span>
 
-              Certification
+    </h2>
 
-            </span>
+    <div className="glass cert-card">
 
-          </h2>
+      <h3>
+        Junior Penetration Tester
+      </h3>
 
-          <div className="glass cert-card">
+      <p>
+        TryHackMe Learning Path
+      </p>
 
-            <h3>
+    </div>
 
-              Junior Penetration Tester
+    <div className="glass cert-card">
 
-            </h3>
+      <h3>
+        Cyber Cell Internship Certificate
+      </h3>
 
-            <p>
+      <p>
+        Kerala Police Cyber Cell
+      </p>
 
-              TryHackMe Learning Path
+    </div>
 
-            </p>
+    <div className="glass cert-card">
 
-          </div>
+      <h3>
+        Django Full Stack with Python
+      </h3>
 
-        </div>
+      <p>
+        
+        Issued by: Srishti Innovative / Technopark, Kerala
+      </p>
 
-      </section>
+    </div>
+
+  </div>
+
+</section>
       
             {/* ================= CONTACT ================= */}
 
@@ -566,7 +585,6 @@ export default function App() {
         <p>
 
           © 2026 Gopu Gireesh.
-          Built with React ❤️
 
         </p>
 
