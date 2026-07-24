@@ -94,7 +94,10 @@ export default function App() {
 
           <div className="profile-card">
 
-            <h1>🛡️</h1>
+            <img
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
+              alt="Profile"
+            />
 
           </div>
 
