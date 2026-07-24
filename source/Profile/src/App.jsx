@@ -141,56 +141,70 @@ export default function App() {
       {/* ================= SKILLS ================= */}
 
       <section id="skills">
-
         <div className="container">
-
           <h2 className="title">
             Technical <span className="gradient">Skills</span>
           </h2>
 
           <div className="skills-grid">
-
             <div className="glass skill-card">
+              <h3>Programming Languages</h3>
 
-              <h3>Programming</h3>
-
-              <SkillBar title="Python" value={92} />
-              <SkillBar title="JavaScript" value={90} />
-              <SkillBar title="Java" value={84} />
-              <SkillBar title="C / C++" value={80} />
-              <SkillBar title="SQL" value={85} />
-
+              <div className="skill-tags">
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>C</span>
+                <span>C++</span>
+                <span>SQL</span>
+                <span>Bash</span>
+              </div>
             </div>
 
             <div className="glass skill-card">
+              <h3>Frameworks & Technologies</h3>
 
-              <h3>Frameworks</h3>
-
-              <SkillBar title="React.js" value={90} />
-              <SkillBar title="Node.js" value={88} />
-              <SkillBar title="Express.js" value={86} />
-              <SkillBar title="Django" value={83} />
-
+              <div className="skill-tags">
+                <span>Django</span>
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
             </div>
 
             <div className="glass skill-card">
+              <h3>Databases & Tools</h3>
 
+              <div className="skill-tags">
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Postman</span>
+                <span>Linux</span>
+                <span>Figma</span>
+              </div>
+            </div>
+
+            <div className="glass skill-card">
               <h3>Cybersecurity</h3>
 
-              <SkillBar title="Penetration Testing" value={90} />
-              <SkillBar title="Digital Forensics" value={87} />
-              <SkillBar title="OWASP" value={84} />
-              <SkillBar title="Threat Detection" value={82} />
-              <SkillBar title="Linux" value={88} />
-
+              <div className="skill-tags">
+                <span>Penetration Testing</span>
+                <span>Vulnerability Assessment</span>
+                <span>Digital Forensics</span>
+                <span>Threat Detection</span>
+                <span>OWASP</span>
+                <span>Ethical Hacking</span>
+                <span>Web Security</span>
+              </div>
             </div>
-
           </div>
-
         </div>
-
       </section>
-      
+
       {/* ================= EXPERIENCE ================= */}
 
       <section id="experience">
